@@ -152,7 +152,6 @@ function answerCheck(){
         }
         else{
             answerCheck();
-            scoreReview(currentScore);
             quiz.innerHTML = `You got ${currentScore}/${questions.length}`;
             next.innerHTML='<a href=".">Try Again?</a>';
             progress.innerHTML = `Question ${position + 1}/${questions.length}`;
