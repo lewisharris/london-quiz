@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id= "container">
+        <span id="startQuiz">Start Quiz</span>
+        <div id="quiz">
+                <div id="currentQuestionText">Which major river runs through London?</div>
+            <form id='form-flex'>
+                    <input type="radio" name="choices" value="a" class="radiobutton" id="a">
+                    <label id='chAlabel' for="a" class="option" name="choices">The Severn</label>
+                    <input type="radio" name="choices" value ="b" class="radiobutton" id="b">
+                    <label id='chBlabel' for="b" class="option" name="choices">The Clyde</label>
+                    <input type="radio" name="choices" value="c" class="radiobutton" id="c">
+                    <label id='chClabel' for="c" class="option" name="choices">The Thames</label>  
+                    <input type="radio" name="choices" value="d" class="radiobutton" id="d">
+                    <label id='chDlabel' for="d" class="option" name="choices">The Avon</label>
+                    
+            </form>
+        </div>
+        
+    </div> 
+    
+    <div id="buttonflex">
+            <div id="next" class="actionbutton">Next</div>
+            <div id="progress" class="actionbutton"></div>
+        </div>
+
+    <script src='app.js' ></script>
+</body>
+
+</html>
